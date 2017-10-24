@@ -57,6 +57,7 @@
             <li class="list-group-item" v-for="formation in formations">
               <div class="clearfix">
                 <span class="badge badge-dark float-right" v-if="formation.dateEnd">{{ formation.dateBegin }} - {{ formation.dateEnd }}</span>
+                <span class="badge badge-dark float-right" v-else>{{ formation.dateBegin }}</span>
                 <h5>{{ formation.university }}</h5>
               </div>
               <p class="lead text-muted">{{ formation.name }}</p>
