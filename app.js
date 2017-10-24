@@ -5,7 +5,7 @@ var app = new Vue({
     lastName: "Durand",
     description: "Je suis en alternance à l'AFP et élève à l'Ecole de Journalisme de Sciences Po",
     photo: "https://pbs.twimg.com/profile_images/799620785195335680/LtdftcHZ_400x400.jpg",
-    twitter: "jChashimiD",
+    twitter: "ChashimiD",
     github: "CharlotteDu",
     mail: "charlotte.durand@sciencespo.fr",
     experiences: [{
