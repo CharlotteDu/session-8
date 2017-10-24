@@ -1,45 +1,45 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Charlotte",
+    lastName: "Durand",
+    description: "Je suis en alternance à l'AFP et élève à l'Ecole de Journalisme de Sciences Po",
+    photo: "https://pbs.twimg.com/profile_images/799620785195335680/LtdftcHZ_400x400.jpg",
+    twitter: "jChashimiD",
+    github: "CharlotteDu",
+    mail: "charlotte.durand@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
+      dateBegin: "2016",
       dateEnd: "Today",
       name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      title: "Alternante",
+      description: "Passée par les services Desk france, Infrographie, Société, Réseaux Sociaux et la rubrique cinéma"
     }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Été 2016",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
+      name: "Le Relève et la Peste",
+      title: "Journaliste stagiaire",
       description: false
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
+      dateBegin: "Eté 2014",
+      dateEnd: false,
+      name: "La Croix",
+      title: "Journaliste Stagiaire",
       description: false
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
+      dateBegin: "2016",
+      dateEnd: "2018",
       name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      university: "Sciences Po Paris"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2013",
+      dateEnd: "2016",
+      name: "Master d'Etudes Théâtrales",
+      university: "Ecole Normale Supérieure de Lyon"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Anglais", "Russe", "Japonais"],
+    skills: ["Première Pro", "Audition", "VueJS", "SCSS", "HTML"]
   },
   computed: {
     fullName() {
